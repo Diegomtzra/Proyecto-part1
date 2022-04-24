@@ -140,6 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="calendario.cpp" />
+    <ClCompile Include="Fecha.cpp" />
+    <ClCompile Include="Variables.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fecha.h" />
+    <ClInclude Include="Variables.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
