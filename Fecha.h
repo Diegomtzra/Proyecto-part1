@@ -1,7 +1,7 @@
 #pragma once
 #include "Variables.h"
 
-class Fecha : public Variables
+class Fecha : public Variables 
 {
 public:
 	void Asignar();

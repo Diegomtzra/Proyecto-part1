@@ -31,7 +31,7 @@ void Fecha::Asignar() {
 	system("cls");
 
 	if (year % 4 == 0 || year % 100 == 0 || year % 400 == 0) {
-		if (month == 1 || month == 2 || month == 3 || month == 4 || month == 5 || month == 6 || month == 7 || 
+		if (month == 1 || month == 2 || month == 3 || month == 4 || month == 5 || month == 6 || month == 7 ||
 			month == 8 || month == 9 || month == 10 || month == 11 || month == 12) {
 			if (total >= 1) {
 				if (total > 31 && total <= 60) {
@@ -40,7 +40,7 @@ void Fecha::Asignar() {
 				if (total > 60 && total <= 91) {
 					std::cout << "Su nueva fecha es:" << total - 60 << "/" << month + 2 << "/" << year;
 				}
-				if (total > 91 && total <=121) {
+				if (total > 91 && total <= 121) {
 					std::cout << "Su nueva fecha es:" << total - 91 << "/" << month + 3 << "/" << year;
 				}
 				if (total > 366) {
@@ -52,6 +52,7 @@ void Fecha::Asignar() {
 			}
 		}
 	}
+
 	else if (month == 1 || month == 2 || month == 3 || month == 4 || month == 5 || month == 6 || month == 7 ||
 			month == 8 || month == 9 || month == 10 || month == 11 || month == 12) {
 
